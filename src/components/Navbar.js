@@ -35,7 +35,7 @@ function Navbar({ setIsLoggedIn }) {
         exact
         style={linkStyles}
         activeStyle={{
-          background: "brown",
+          background: "purple",
         }}
       >
         About
