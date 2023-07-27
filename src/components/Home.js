@@ -6,7 +6,10 @@ function Home({ isLoggedIn }) {
 
   return (
     <div>
-      <h1>Home!</h1>
+      <h1>Home</h1>
+      <div>
+        <p>We meet again,reader....Welcome,to the void. /(*_*)\</p>
+      </div>
     </div>
   );
 }

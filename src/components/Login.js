@@ -19,8 +19,6 @@ function Login({ setIsLoggedIn }) {
     e.preventDefault();
 
     setIsLoggedIn(true);
-
-    // after logging the user in, redirect to the home page!
     history.push("/");
   }
 
