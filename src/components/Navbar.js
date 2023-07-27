@@ -5,7 +5,7 @@ const linkStyles = {
   width: "100px",
   padding: "12px",
   margin: "0 6px 6px",
-  background: "blue",
+  background: "green",
   textDecoration: "none",
   color: "black",
 };
@@ -22,13 +22,10 @@ function Navbar({ setIsLoggedIn }) {
     <div>
       <NavLink
         to="/"
-        /* set exact so it knows to only set activeStyle when route is deeply equal to link */
         exact
-        /* add styling to Navlink */
         style={linkStyles}
-        /* add prop for activeStyle */
         activeStyle={{
-          background: "darkred",
+          background: "red",
         }}
       >
         Home
@@ -38,7 +35,7 @@ function Navbar({ setIsLoggedIn }) {
         exact
         style={linkStyles}
         activeStyle={{
-          background: "goldenbrown",
+          background: "brown",
         }}
       >
         About
@@ -48,7 +45,7 @@ function Navbar({ setIsLoggedIn }) {
         exact
         style={linkStyles}
         activeStyle={{
-          background: "neongreen",
+          background: "blue",
         }}
       >
         Login
